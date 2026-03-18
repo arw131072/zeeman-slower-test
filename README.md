@@ -18,7 +18,7 @@
 
 - 不一定非得叫my-forked-repo叫别的也行总之这是另一个仓库，会显示在你的profile里。
 
-## 3. 设置upstream链接主仓库:
+## 3. 设置upstream链接主仓库
 
 - 在git bash里打开你fork的本地仓库：`cd my-forked-repo`
 - 设置上游：`git remote add upstream https://github.com/Jim-108ghost/Zeeman-Slower-test`
@@ -59,10 +59,12 @@ git commit -m "完成了xxx功能"
 ```
 
 ## 6. 推到你自己的fork仓库
-- 如果没设分支就直接push到你自己的main：`git push origin`
-- 如果你设置了feature分支就是：`git push origin feature/加一个新功能` 
 
-## 7. 发起PR：
+- 如果没设分支就直接push到你自己的main：`git push origin`
+- 如果你设置了feature分支就是：`git push origin feature/加一个新功能`
+
+## 7. 发起PR
+
 打开你的 GitHub 仓库页面，会看到一个黄色的 Compare & pull request按钮。点击后填写说明，然后 Create pull request。在评论里 @Jim-108ghost 让他 review
 
 ## 8. 合并完清理分支
